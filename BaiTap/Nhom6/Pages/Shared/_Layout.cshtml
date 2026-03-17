@@ -1,52 +1,56 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="utf-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <title>@ViewData["Title"] - Nhom6</title>
-    <script type="importmap"></script>
-    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css"/>
+    <title>@ViewData["Title"] - GreenAge</title>
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true"/>
-    <link rel="stylesheet" href="~/Nhom6.styles.css" asp-append-version="true"/>
 </head>
 <body>
-<header>
-    <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
-        <div class="container">
-            <a class="navbar-brand" asp-area="" asp-page="/Index">Nhom6</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
-                    aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
-                <ul class="navbar-nav flex-grow-1">
-                    <li class="nav-item">
-                        <a class="nav-link text-dark" asp-area="" asp-page="/Index">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-dark" asp-area="" asp-page="/Privacy">Privacy</a>
-                    </li>
-                </ul>
+    <div id="templatemo_header_wrapper">
+        <div id="templatemo_header">
+            <div id="site_title">
+                <a href="#">
+                    <svg width="45" height="35" viewBox="0 0 100 80" style="vertical-align: middle; margin-right: 8px;">
+                        <path d="M 20 10 C 50 10, 60 40, 60 50 C 30 50, 20 20, 20 10 Z" fill="#6eb71a" />
+                        <path d="M 50 40 C 80 40, 90 70, 90 80 C 60 80, 50 50, 50 40 Z" fill="#4d8f10" />
+                    </svg>
+                    Green<span>Age</span>
+                </a>
+                <p>Free Website Templates</p>
             </div>
+            <div style="clear: both;"></div>
         </div>
-    </nav>
-</header>
-<div class="container">
-    <main role="main" class="pb-3">
-        @RenderBody()
-    </main>
-</div>
-
-<footer class="border-top footer text-muted">
-    <div class="container">
-        &copy; 2026 - Nhom6 - <a asp-area="" asp-page="/Privacy">Privacy</a>
     </div>
-</footer>
 
-<script src="~/lib/jquery/dist/jquery.min.js"></script>
-<script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
-<script src="~/js/site.js" asp-append-version="true"></script>
+    <div id="templatemo_menu_wrapper">
+        <div id="templatemo_menu">
+            <ul>
+                <li><a href="#" class="current">Home<br /><span class="arrow">&#9660;</span></a></li>
+                <li><a href="#">Gallery<br /><span class="arrow">&#9650;</span></a></li>
+                <li><a href="#">News<br /><span class="arrow">&#9650;</span></a></li>
+                <li><a href="#">Blog<br /><span class="arrow">&#9650;</span></a></li>
+                <li><a href="#">Contact<br /><span class="arrow">&#9650;</span></a></li>
+            </ul>
+            <div id="search_box">
+                <form action="#" method="get">
+                    <input type="text" value="Search" name="q" id="q" onfocus="if(this.value=='Search') this.value='';" onblur="if(this.value=='') this.value='Search';" />
+                    <button type="submit" id="searchbutton">&#10140;</button>
+                </form>
+            </div>
+            <div style="clear: both;"></div>
+        </div>
+    </div>
+    
+    <div id="templatemo_main">
+        @RenderBody()
+    </div>
 
-@await RenderSectionAsync("Scripts", required: false)
+    <div id="templatemo_footer_wrapper">
+        <div id="templatemo_footer">
+            Copyright &copy; 2048 <a href="#">Company Name</a> - Design: <a href="http://www.tooplate.com">tooplate</a>
+        </div>
+    </div>
+
 </body>
 </html>
