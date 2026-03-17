@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>@ViewData["Title"] - GreenAge</title>
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true"/>
+</head>
+<body>
+    <div id="templatemo_header_wrapper">
+        <div id="templatemo_header">
+            <div id="site_title">
+                <a href="#">
+                    <svg width="45" height="35" viewBox="0 0 100 80" style="vertical-align: middle; margin-right: 8px;">
+                        <path d="M 20 10 C 50 10, 60 40, 60 50 C 30 50, 20 20, 20 10 Z" fill="#6eb71a" />
+                        <path d="M 50 40 C 80 40, 90 70, 90 80 C 60 80, 50 50, 50 40 Z" fill="#4d8f10" />
+                    </svg>
+                    Green<span>Age</span>
+                </a>
+                <p>Free Website Templates</p>
+            </div>
+            <div style="clear: both;"></div>
+        </div>
+    </div>
+
+    <div id="templatemo_menu_wrapper">
+        <div id="templatemo_menu">
+            <ul>
+                <li><a href="#" class="current">Home<br /><span class="arrow">&#9660;</span></a></li>
+                <li><a href="#">Gallery<br /><span class="arrow">&#9650;</span></a></li>
+                <li><a href="#">News<br /><span class="arrow">&#9650;</span></a></li>
+                <li><a href="#">Blog<br /><span class="arrow">&#9650;</span></a></li>
+                <li><a href="#">Contact<br /><span class="arrow">&#9650;</span></a></li>
+            </ul>
+            <div id="search_box">
+                <form action="#" method="get">
+                    <input type="text" value="Search" name="q" id="q" onfocus="if(this.value=='Search') this.value='';" onblur="if(this.value=='') this.value='Search';" />
+                    <button type="submit" id="searchbutton">&#10140;</button>
+                </form>
+            </div>
+            <div style="clear: both;"></div>
+        </div>
+    </div>
+    
+    <div id="templatemo_main">
+        @RenderBody()
+    </div>
+
+    <div id="templatemo_footer_wrapper">
+        <div id="templatemo_footer">
+            Copyright &copy; 2048 <a href="#">Company Name</a> - Design: <a href="http://www.tooplate.com">tooplate</a>
+        </div>
+    </div>
+
+</body>
+</html>
