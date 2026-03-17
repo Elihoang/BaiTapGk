@@ -1,72 +1,61 @@
-## Build results
-bin/
-obj/
+## === Build Results ===
+[Bb]in/
+[Oo]bj/
+[Tt]est[Cc]ontext/
+*.exe
+*.dll
+*.pdb
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
 
-## Visual Studio files
+## === Visual Studio Files ===
 .vs/
 *.user
 *.suo
 *.userosscache
 *.sln.docstates
+*.opendb
+*.dbmdl
 
-## Rider / VS Code
+## === Rider / VS Code ===
 .idea/
 .vscode/
+*.sln.iml
 
-## Logs
-*.log
-
-## OS files
+## === OS Files ===
 .DS_Store
 Thumbs.db
+ehthumbs.db
+desktop.ini
 
-## .NET Core
+## === .NET Core / ASP.NET Core ===
 project.lock.json
 project.fragment.lock.json
 artifacts/
-
-## ASP.NET Core
 appsettings.Development.json
+appsettings.Local.json
 
-## Publish
+## === Publish / Web ===
 publish/
 *.publishproj
+node_modules/
+dist/
 
-## NuGet
+## === NuGet ===
 *.nupkg
 packages/
 .nuget/
 *.snupkg
 
-## Resharper
-_ReSharper*/
-*.DotSettings.user
-
-## Test results
-TestResults/
-*.trx
-
-## Coverage
-coverage/
-*.coverage
-*.coveragexml
-
-## Docker
-docker-compose.override.yml
-
-## Environment variables
-.env
-.env.*
-
-## Secrets
-secrets.json
-
-## Node (nếu có frontend)
-node_modules/
-dist/
-build/
-
-## Logs
+## === Logs ===
+*.log
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+## === Environment & Secrets ===
+.env
+.env.*
+secrets.json
