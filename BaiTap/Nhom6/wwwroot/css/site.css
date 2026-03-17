@@ -154,3 +154,36 @@ body {
     color: #6eb71a;
     text-decoration: none;
 }
+
+.green-age-banner {
+  margin: 0 auto 1.25rem;
+  border-radius: 16px;
+  overflow: hidden;
+  background: #edf4ef;
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.12);
+}
+
+.green-age-banner__slides {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 0;
+}
+
+.green-age-banner__slides img {
+  width: 100%;
+  display: block;
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+}
+
+@media (max-width: 991.98px) {
+  .green-age-banner__slides {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 575.98px) {
+  .green-age-banner__slides {
+    grid-template-columns: 1fr;
+  }
+}
