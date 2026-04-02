@@ -190,4 +190,4 @@ C:\HocTap\BaiTapGk\BaiTap\Nhom6\obj\Debug\net9.0\refint\Nhom6.dll
 C:\HocTap\BaiTapGk\BaiTap\Nhom6\obj\Debug\net9.0\Nhom6.pdb
 C:\HocTap\BaiTapGk\BaiTap\Nhom6\obj\Debug\net9.0\Nhom6.genruntimeconfig.cache
 C:\HocTap\BaiTapGk\BaiTap\Nhom6\obj\Debug\net9.0\ref\Nhom6.dll
-C:\HocTap\BaiTapGk\BaiTap\Nhom6\obj\Debug\net9.0\compressed\nt5b593wdt-l6g4zldsnp.gz
+C:\HocTap\BaiTapGk\BaiTap\Nhom6\obj\Debug\net9.0\compressed\nt5b593wdt-b3lh5ewvx8.gz
